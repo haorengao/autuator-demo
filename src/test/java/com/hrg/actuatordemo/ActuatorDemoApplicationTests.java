@@ -22,8 +22,8 @@ public class ActuatorDemoApplicationTests {
 	@Test
 	public void testRedis() {
 		
-		redisDao.setKey("2", "haorengao2");
-		System.out.println(redisDao.getValue("2"));
+		redisDao.setKey("3", "haorengao3");
+		System.out.println(redisDao.getValue("3"));
 		
 	}
 
